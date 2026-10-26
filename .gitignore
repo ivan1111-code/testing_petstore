@@ -1,0 +1,47 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------- venv ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- pytest ----------
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+
+# ---------- Allure ----------
+# сырые результаты прогона — не нужны в git
+allure-results/
+# промежуточный отчёт — не нужен, сдаём result/
+allure-report/
+
+# ---------- IDE / OS ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- logs ----------
+*.log
